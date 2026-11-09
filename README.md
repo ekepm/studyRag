@@ -36,7 +36,7 @@ python -m unittest discover -s tests -v
 
 このリポジトリには、GitHub Spec Kitの仕様・計画・タスクに相当する成果物を `specs/001-grounded-search/` に置いています。Spec Kit公式の現在の流れは、constitution → specify → clarify → plan → checklist → tasks → analyze → implement → converge です。Copilot Chatで各 `/speckit-*` スキルを一つずつ呼び、成果物をレビューしてから次に進みます。
 
-今回の雛形はネットワーク制限により公式CLIを初期化できなかったため、学習用の仕様書類を先に手作成しています。CLIの導入は公式手順に従い、ネットワーク利用可能な環境で行えます。
+この雛形はCLIテンプレートを使わずに構成し、仕様・設計・タスクを先に整えています。次の学習段階では、公式CLIでSpec Kitを初期化し、Copilotの各スキルを使って仕様と実装の整合を確認できます。
 
 ## 次の改善課題
 
@@ -48,5 +48,5 @@ python -m unittest discover -s tests -v
 
 ## 公開前の注意
 
-`data/` には架空のサンプルマニュアルのみを置いています。実データや秘密情報は追加しないでください。
+`data/` には架空のコミュニティガーデン案内を置いています。実データや秘密情報は追加しないでください。
 
